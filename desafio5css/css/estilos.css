@@ -1,5 +1,33 @@
-.hoobi{
+.pasatiempos{
+    display: flex;
+}
+
+.video{
     border-style: solid;
     border-radius: 25px;
-    border-color: red;
+    display: flexbox;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: 450px;
+}
+.video img{
+    border-radius: 15px;
+}
+.comics{
+    background-color: black;
+   color: white;
+   border-radius: 25px;
+   display: flexbox;
+   align-items: center;
+   text-align: center;
+    width: 600px;
+    height: 450px;
+}
+.comics img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
 }
