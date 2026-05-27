@@ -2,7 +2,7 @@
     display: flex;
 }
 
-.video{
+.pokemon{
     border-style: solid;
     border-radius: 25px;
     display: flexbox;
@@ -13,7 +13,7 @@
     width: 600px;
     height: 450px;
 }
-.video img{
+.pokemon img{
     border-radius: 15px;
 }
 .comics{
