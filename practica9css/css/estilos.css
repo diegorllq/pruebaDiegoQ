@@ -92,3 +92,84 @@ margin-left: 20px;
 li {
 margin-bottom: 8px;
 }
+/* =========================
+TABLA (Box model)
+========================= */
+.ficha table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.ficha th, .ficha td{
+    border: 1px solid #747474;
+    padding: 10px;
+}
+.ficha th{
+    background-color: #5e5a4b;
+    color: white;
+}
+/* =========================
+FORMULARIO
+========================= */
+.centrado{
+    text-align: center;
+}
+form{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+input{
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Botón */
+input[type="submit"] {
+background-color: #7e724b;
+color: white;
+border: none;
+cursor: pointer;
+margin-top: 10px;
+}
+input[type="submit"]:hover {
+background-color: #4b3d0c;
+}
+/* GALERÍA (Grid + Flexbox alternativo) */
+.galeria {
+display: flex;
+flex-direction: column;
+gap: 10px;
+justify-content: center;
+}
+.contenedor-galeria{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 10px;
+align-content: center;
+justify-content: center
+}
+.galeria img {
+width: 30%;
+height: 300px;
+object-fit: cover; /* overflow control */
+border-radius: 10px;
+transition: transform 0.3s;
+}
+.galeria img:hover {
+transform: scale(1.1);
+}
+/* =========================
+FOOTER
+========================= */
+footer {
+text-align: center;
+padding: 20px;
+background-color: #000;
+color: white;
+margin-top: 40px;
+}
