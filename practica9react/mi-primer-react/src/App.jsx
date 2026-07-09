@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Contador from './Contador' 
+import TamagotchiPou from './Pou'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,9 @@ function App() {
   return (
     <>
     <Contador/>
+    <TamagotchiPou/>
     </>
+   
   )
 }
 
